@@ -1,1 +1,1 @@
-# STEGMED
+# StegMed
