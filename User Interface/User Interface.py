@@ -576,7 +576,7 @@ def main_win():
     main_win = Tk()
     main_win.title("Image Steganography")
     main_win.geometry("626x417")
-    bg = PhotoImage(file = "E:\Xtemp\GitClones\Mountain1.png")
+    bg = PhotoImage(file = "E:\Xtemp\GitClones\Mountain1.png")   # The file parameter takes path which isn't associated or present in project directory.
     canvas1 = Canvas( main_win, width = 626,height = 417)
     canvas1.pack(fill = "both", expand = True)
     canvas1.create_image( 0, 0, image = bg, anchor = NW)
