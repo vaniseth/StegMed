@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  5 01:28:11 2021
 
-@author: hp
-"""
 import math
 import numpy as np
 import signal
