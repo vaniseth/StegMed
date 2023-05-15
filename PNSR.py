@@ -20,9 +20,9 @@ class Compare():
          img = cv2.resize(img,(col+(8-col%8),row+(8-row%8)))
          return img
 a = Compare()
-img = cv2.imread('C://Users//hp//Desktop//Test RGB Images//Png Images//Original//Mountain1.png')
+img = cv2.imread('E:\JUET\Projects\StegMed\Test Images\RGB Images\PNG Images\Penguin1.png')
 row, col = img.shape[:2]
 img = a.addPadd(img,row,col)
-simg = cv2.imread('C://Users//hp//Desktop//Test RGB Images//Png Images//Original//RMountain1.png')
+simg = cv2.imread('E:\JUET\Projects\StegMed\Test Images\RGB Images\PNG Images\enc_Penguin1.png')
 b = a.psnr(img,simg)
 print(b)
